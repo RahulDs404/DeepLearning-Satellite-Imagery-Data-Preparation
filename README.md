@@ -18,10 +18,14 @@ By the end of this guide, you can generate a high-quality, custom dataset from y
 ![image](https://github.com/user-attachments/assets/0f671633-c51d-43a1-8289-3772f23ec252)
 
 
-
 Features
 Step-by-step instructions to import and preprocess satellite imagery from your own sources.
 Tools to label and annotate images for tasks like classification, object detection, and semantic segmentation.
 Data augmentation techniques specifically designed for satellite imagery (rotation, flipping, scaling, and more).
 A custom dataset loader for deep learning libraries (PyTorch, TensorFlow).
 Code to convert geospatial datasets into formats usable for training models (e.g., .npy, .tfrecord).
+
+
+Background :
+
+The satellite imagery used in this project is Sentinel-2 imagery of a Himalayan landscape. This terrain features an intricate network of drainage systems, whose accurate monitoring is crucial for understanding the region's geomorphological changes. The data preparation steps involves extracting the water bodies from the NDWI image and converting it to a shapefile in a GIS environmnent and merging the NDWI image with the preexisting bands of the satellite image. 
