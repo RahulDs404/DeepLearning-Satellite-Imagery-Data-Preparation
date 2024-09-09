@@ -3,7 +3,7 @@ Welcome to the Satellite Imagery Deep Learning Dataset Creation repository! This
 
 Motivation :
 
-Most deep learning tutorials and frameworks rely heavily on preloaded, benchmark datasets like ImageNet, EuroSAT, or Landsat-8 for image classification, segmentation, and other computer vision tasks. However, in many real-world applications, you need to work with your own custom imagery, which often requires a different approach for data preprocessing, annotation, and dataset structuring.
+Most satellite remote sensing based deep learning tutorials and frameworks rely heavily on preloaded, benchmark datasets like ImageNet, EuroSAT for image classification, segmentation, and other computer vision tasks. However, in many real-world applications, you need to work with your own custom imagery, which often requires a different approach for data preprocessing, annotation, and dataset structuring.
 
 This repository bridges that gap by showing you how to:
 
